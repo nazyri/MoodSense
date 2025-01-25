@@ -1,7 +1,7 @@
   import React from 'react';
   import { Link } from 'react-router-dom';
   import { List, ListItem, ListItemText, Divider, Typography, Box } from '@mui/material';
-  import StudentFormC from '../StudentForm/StudentFormC';
+  // import StudentFormC from '../StudentForm/StudentFormC';
 
   const MoodSense = () => {
     return (
@@ -31,7 +31,7 @@
           </ListItem>
         </List>
         <Box sx={{ flexGrow: 1, p: 3 }}>
-          <StudentFormC />
+          {/* <StudentFormC /> */}
         </Box>
       </Box>
     );
