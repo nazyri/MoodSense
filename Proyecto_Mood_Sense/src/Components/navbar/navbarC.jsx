@@ -26,6 +26,7 @@
             <ListItemText primary="Formulario de Perfil" sx={{ color: '#a20f41' }} />
           </ListItem>
           <Divider />
+          
           <ListItem button component={Link} to="/notificaciones">
             <ListItemText primary="Notificaciones" sx={{ color: '#a20f41' }} />
           </ListItem>
